@@ -1,0 +1,24 @@
+
+.spacer60 {
+    height: 80px;
+    width: 100%;
+}
+
+.spacer10 {
+    height: 5px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus{
+    outline: none;
+}
+
+
+
+.anchor-link ::After{
+    font-weight: 1000;
+}

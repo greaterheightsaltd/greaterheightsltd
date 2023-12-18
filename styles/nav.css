@@ -1,0 +1,113 @@
+/* common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: black;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 100px;
+}
+.navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+   
+.navigation-wrapper > .left-column > .contact-hour-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: .8em;
+}
+
+.navigation-wrapper > .left-column > .contact-hours-wrapper > .phone {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: .8em;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.center-column > .banner-image img {
+    width: 100px;
+    height: 100%;
+}
+
+/* nav link styles */
+
+.links-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+
+    /* justify-content: space-around; */
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.9em;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: azure;
+}
+
+/* right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navigation-wrapper > .right-column > .address-wrapper {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a {
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper a:hover {
+    color: #cea135;
+    transition: 0.5s;
+}
+

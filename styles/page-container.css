@@ -1,0 +1,25 @@
+/* page container styles */
+.page-container {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.page-container > .content-wrapper {
+  width: 600px;
+}
+
+.page-container > .content-wrapper #chef {
+  width: 200px;
+  float: right;
+  border: 1px solid #cea135;
+}
+.page-container > .content-wrapper .title {
+  color: red;
+  font-weight: bolder;
+}
+
+.page-container > .content-wrapper p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
